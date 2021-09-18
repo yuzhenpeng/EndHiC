@@ -3,9 +3,12 @@ EndHic is a fast and easy-to-use Hi-C scaffolding tool, using the Hi-C links fro
 EndHiC takes the HiC-pro's bin matrix results as input data. After running HiC-pro, a recommended EndHiC usage for most users is to run endhic.pl with default parameters. 
 
 A command-line example is shown below:
-   fastaDeal.pl -attr id:len hifiasm.fa > hifiasm.fa.len
-   endhic.pl  hifiasm.fa.len humanHiC_100000_abs.bed humanHiC_100000.matrix humanHiC_100000_iced.matrix
 
+  git clone git@github.com:fanagislab/EndHiC.git
+
+  cd EndHiC/z.testing_data/
+
+  sh work.sh 
 
 
 1. Input files: (example, human hifiasm + hic-pro)
